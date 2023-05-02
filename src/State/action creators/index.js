@@ -1,4 +1,4 @@
- const deposit =(amount)=>{
+export const deposit =(amount)=>{
     return (dispatch)=>{
         dispatch({
             type:'deposit',
@@ -14,4 +14,3 @@ export const withdraw =(amount)=>{
         })
     }
 }
-export default deposit;
